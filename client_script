@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat $1 <(echo "===EOF===") | nc $2 $3
